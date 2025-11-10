@@ -18,16 +18,22 @@
 nav{
   width: 100%;
   position: absolute;
+  height: 70px;
   top: 0;
   left: 0;
   padding: 20px 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  opacity:;
+  backdrop-filter: blur(12px);
+  position:fixed;
+
 }
 
 img{
-  width: 90px;
+  width: 60px;
 }
 
 nav ul li{
@@ -36,10 +42,18 @@ nav ul li{
   margin-left: 40px;
 }
 
+
+
 nav ul li a{
   text-decoration: none;
   color: #ffffff;
   font-size: 17px;
+}
+
+#navopt:hover{
+  color:greenyellow;
+  
+
 }
 
 .content{
@@ -124,3 +138,21 @@ nav ul li a{
   width: 210px;
   opacity: 0.3;
 }
+
+.mid{
+  border: solid 2px red;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  top: 200px;
+}
+
+.newsimg1{
+  background-color: red;
+  border: solid rebeccapurple;
+  height: ;
+
+}
+
+
+

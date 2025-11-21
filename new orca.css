@@ -28,6 +28,7 @@ nav{
   background-color: black;
   backdrop-filter: blur(12px);
   position:fixed;
+  z-index: 1000;
 
 }
 
@@ -139,19 +140,33 @@ nav ul li a{
 }
 
 .mid{
-  border: solid 2px red;
+  border: solid 2px rgb(255, 0, 0);
   height: 400px;
   width: 100%;
-  position: relative;
   top: 200px;
 }
 
 .newsimg1{
-  background-color: red;
-  border: solid rebeccapurple;
-  /* height: ; */
+  background-color: rgb(251, 0, 0);
+  border: solid rgb(198, 0, 0);
+  height: 414px;
 
+}
+
+.mid h2{
+  background-color: red;
+}
+
+.newsimg1 img{
+  z-index: -1;
+  height: 200px;
+  width: 410px;
 }
 
 
 
+.end{
+  height: 600px;
+  width: 100%;
+  border: solid red;
+}

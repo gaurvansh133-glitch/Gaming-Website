@@ -294,12 +294,12 @@ nav ul li a{
   filter: none;
 }
 
-.hero:hover{
+/* .hero:hover{
   display: block;
-}
+} */
 
 
-.name{
+/* .name{
   z-index: 100;
   background-color: none;
   top: 350px;
@@ -311,10 +311,68 @@ nav ul li a{
   font-size: 34px;
   opacity: 0;
   transition: 0.5s ease;
+  color: #ffffff;
+  border-bottom:1px white solid;
 }
 
 .hero:hover .name{
   opacity: 1;
+} */
+
+.name {
+  position: absolute;
+  bottom: -80px;
+  left: 50px;
+  transition: 0.5s ease;
+  z-index: 50;
+  display: flex;
+  gap: 150px;
+}
+
+.name h3 {
+  color: white;
+  font-size: 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 2s ease;
+}
+
+.name .elden{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 2s ease;
+}
+.name .blood{
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 2s ease;
+  margin-left: 100px;
+}
+.name .dark{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 2s ease;
+}
+.name .nit{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 2s ease;
+  /* margin-right: 30px; */
+  padding-right: 100px;
 }
 
 
+
+.hello{
+  border: red solid 3px;
+  z-index: 1000;
+  background-color: brown;
+}
